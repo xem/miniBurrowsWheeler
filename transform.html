@@ -1,10 +1,10 @@
-<script>
+﻿<script>
 
 document.write((
 
 // <GOLF>
 
-t=>{ /* make all rotations of t */ /* sort them */ /* take last column */ /* return [string built from last column, position of last char] */ }
+s=>[...s+='ÿ'].map((_,i)=>s.slice(i)+s.slice(0,i)).sort().map(x=>x.slice(-1)).join``
 
 // </GOLF>
 
