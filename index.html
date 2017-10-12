@@ -4,7 +4,7 @@ document.write((
 
 // <GOLF>
 
-(t,d)=>{s=d.length;i=[...Array(s).keys()].sort((x,y)=>(c=(d[x].charCodeAt()-d[y].charCodeAt()),(c===0)?x-y:c));p=i[t];return [...Array(s).keys()].reduce(m=>(m.push(d[p]),p=i[p],m),[]).join('')}
+(t,d)=>(a='charCodeAt',i=[...[...d].keys()].sort((x,y)=>(c=d[x][a]()-d[y][a](),!c?x-y:c)),p=i[t],i.map(m=>(t=p,p=i[p],d[t])).join``)
 
 // </GOLF>
 

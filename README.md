@@ -1,3 +1,3 @@
 # Burrows-wheeler untransform
 
-Golfed by mmastrac
+Golfed by mmastrac, benjaminjs
