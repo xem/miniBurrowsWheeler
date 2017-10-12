@@ -1,3 +1,3 @@
-# Burrows-wheeler untransform
+# mini Burrows-wheeler untransform
 
-Golfed by mmastrac, benjaminjs
+Golfed by mmastrac, benjaminjs, veubeke
