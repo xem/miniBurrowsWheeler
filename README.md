@@ -1,4 +1,4 @@
-# mini Burrows-wheeler untransform
+# mini Burrows-wheeler transform/untransform functions
 
 Golfed by mmastrac, benjaminjs, veubeke, xem
 
